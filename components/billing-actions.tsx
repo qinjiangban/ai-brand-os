@@ -65,7 +65,7 @@ export function BillingActions({ canManage, canCancel, canRefund }: BillingActio
         type="button"
       >
         {portalLoading ? <LoaderCircle className="size-3.5 animate-spin" /> : <WalletCards className="size-3.5" />}
-        退订
+        管理订阅
       </Button>
       <Button
         variant="outline"
